@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact Us | Southern Waste LLC</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="logo.png" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="index.html"><img src="logo.png" alt="Southern Waste Logo" class="logo"></a>
+      <button id="mobile-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About Us</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="contact.html" class="nav-link active">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page container reveal-up">
+      <h1>Contact Us</h1>
+      <p>Serving South Florida and Beyond</p>
+      <p><strong>Phone:</strong> (954) 667-3767<br><strong>Email:</strong> <a href="mailto:jb@swmanagement.us">jb@swmanagement.us</a></p>
+
+      <form id="contact-form" class="contact-form" autocomplete="on">
+        <label><span>Your Name</span><input type="text" name="name" required placeholder="Full name"></label>
+        <label><span>Your Email</span><input type="email" name="email" required placeholder="you@example.com"></label>
+        <label><span>Subject</span><input type="text" name="subject" required placeholder="Reason for contact"></label>
+        <label><span>Message</span><textarea name="message" rows="6" required placeholder="Tell us what you need"></textarea></label>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid reveal-up">
+      <div>
+        <img src="logo.png" alt="Southern Waste logo small" class="logo footer-logo">
+        <p>© <span id="year4"></span> Southern Waste LLC</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>📞 (954) 667-3767<br>📧 jb@swmanagement.us</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
